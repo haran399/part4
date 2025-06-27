@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhhcmFucmFqIiwiaWQiOiI2ODViOTBmOGUyZWFhMTQ0OGZkZTUyMzIiLCJpYXQiOjE3NTA4MzM2MTR9.f9rL0F6RpCHf_76cV8AU8KGdLbu34W7qiMbuqCKTnYw
+
+{
+    "title":"checking userextractor",
+    "author":"Haran",
+    "url":"www.userextractor.com",
+    "likes":22
+
+}
